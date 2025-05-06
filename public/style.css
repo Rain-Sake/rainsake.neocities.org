@@ -1,0 +1,46 @@
+@import url(https://rainsake.neocities.org/JETBRAINSMONO-VARIABLEFONT_WGHT.TTF);
+
+body {
+    background-image: url(https://rainsake.neocities.org/catcolors.gif);
+    background-color: yellow;
+}
+
+.nav {
+    margin:auto;
+    width: auto;
+    height: auto;
+    background-color: #2E3030;
+    text-align: center;
+    box-align: top;
+    align-content: center;
+    color: #FFD800;
+    font-family: 'JetBrains Mono';
+}
+
+.title {
+    background-image: url('https://static.miraheze.org/rainworldwiki/e/e3/RW_LC_region_art.png');
+    background-size: 100%;
+    color: #FFD800;
+    text-align: center;
+    height: 100%;
+    font-size: xx-large;
+    font-family: 'JetBrains Mono';
+    font-weight: 700;
+}
+
+.main {
+    margin: auto;
+    align-content: center;
+    background-color: #2E3030;
+    height: auto;
+}
+
+a {
+    color: #FFD800;
+    font-family: 'JetBrains Mono';
+}
+
+p {
+    color: #FFD800;
+    font-family: 'JetBrains Mono';
+}
