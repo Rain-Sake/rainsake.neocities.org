@@ -1,8 +1,18 @@
-@import url(https://rainsake.neocities.org/JETBRAINSMONO-VARIABLEFONT_WGHT.TTF);
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+/* @import url(./fonts/JETBRAINSMONO-VARIABLEFONT_WGHT.TTF);
 
 body {
     background-image: url(./images/catcolors.gif);
-    background-color: yellow;
+    background-color: black;
 }
 
 .nav {
@@ -13,19 +23,20 @@ body {
     text-align: center;
     box-align: top;
     align-content: center;
-    color: #FFD800;
-    font-family: 'JetBrains Mono';
+    color: #ff8400;
+    font-family: 'Courier New';
 }
 
-.title {
+title {
     background-image: url('https://static.miraheze.org/rainworldwiki/e/e3/RW_LC_region_art.png');
     background-size: 100%;
-    color: #FFD800;
+    color: #ff9100;
     text-align: center;
     height: 100%;
     font-size: xx-large;
-    font-family: 'JetBrains Mono';
+    font-family: 'Courier New';
     font-weight: 700;
+    font-style: normal;
 }
 
 .main {
@@ -43,4 +54,4 @@ a {
 p {
     color: #FFD800;
     font-family: 'JetBrains Mono';
-}
+} */
