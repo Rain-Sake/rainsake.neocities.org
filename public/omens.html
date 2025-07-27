@@ -1,4 +1,9 @@
-const omensList = [
+<head>
+<script src="styles/include.js"></script>
+
+</head>
+
+<script>const omensList = [
   "What are you doing here?",
   "It was too big to be called a sword",
   "In life, there's roadblocks",
@@ -7,13 +12,6 @@ const omensList = [
   "Do not turn around.",
   "Are you trying to give me a heart attack?"
 ];
-
-//   const chosenOmen = Math.floor(Math.random() * omensList.length);
-//   const omenDisplay = document.getElementById('omenDisplay');
-//   if (omenDisplay) {
-//     omenDisplay.innerHTML = omensList[chosenOmen];
-//   }
-// }
 
 var testButt = document.getElementById('testButt');
 var omenDisplay = document.getElementById('omenDisplay');
@@ -24,3 +22,9 @@ function printOmen() {
   var rand = Math.floor(Math.random() * omensList.length);
   omenDisplay.innerText = omensList[rand];
 }
+</script>
+
+    <button id="testButt">click here for free poop</button>
+    <div id="omenDisplay" onload="printOmen()"></div>
+
+<script>includeHTML()</script>

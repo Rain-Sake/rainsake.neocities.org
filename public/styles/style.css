@@ -2,56 +2,86 @@ body {
     background-color: black;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
-
-
-
-
-/* @import url(./fonts/JETBRAINSMONO-VARIABLEFONT_WGHT.TTF);
-
-body {
-    background-image: url(./images/catcolors.gif);
-    background-color: black;
-}
-
-.nav {
-    margin:auto;
+img {
     width: auto;
-    height: auto;
-    background-color: #2E3030;
-    text-align: center;
-    box-align: top;
-    align-content: center;
-    color: #ff8400;
-    font-family: 'Courier New';
 }
 
-title {
-    background-image: url('https://static.miraheze.org/rainworldwiki/e/e3/RW_LC_region_art.png');
-    background-size: 100%;
-    color: #ff9100;
-    text-align: center;
-    height: 100%;
-    font-size: xx-large;
-    font-family: 'Courier New';
-    font-weight: 700;
-    font-style: normal;
+h1 {
+    font-weight: normal;
 }
 
 .main {
-    margin: auto;
-    align-content: center;
-    background-color: #2E3030;
-    height: auto;
+    display: inline-flex;
+    flex-flow: wrap;
+    margin-inline: 20%;
+    align-items:inherit;
+    justify-content: space-evenly;
+    border: #FF6247 solid;
+    max-height: 75vh;
+    overflow-y: scroll;
+    padding: 0.5%;
+    
+    /* hiding scrollbar */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
-a {
-    color: #FFD800;
-    font-family: 'JetBrains Mono';
+/* more hiding scrollbar */
+.main::-webkit-scrollbar {
+    display: none;
 }
 
-p {
-    color: #FFD800;
-    font-family: 'JetBrains Mono';
-} */
+table {
+    table-layout: auto;
+    display: block;
+}
+
+tbody,
+td {
+    width: max-content;
+    max-width: min-content;
+    padding-inline-start: 2%;
+    max-height: 30vh;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.contentbox {
+    padding-inline: 2%;
+    background-color: rgb(24, 24, 24);
+    align-content: space-evenly;
+    min-width: 100px;
+    max-width: 75%;
+    align-items:inherit;
+    overflow: scroll;
+    max-height: inherit;
+}
+
+.links {
+    border: solid;
+    border-color: #FFCB54;
+}
+
+.about {
+    border: solid;
+    border-color: #FF8A47;
+}
+
+.news {
+    border: solid;
+    border-color: #42A9E5;
+    max-width: 65%;
+}
+
+.artpreview {
+    width: 23.5%;
+    border: solid #3BE560;
+}
+
+.artpreview img {
+    width: 100%;
+}
