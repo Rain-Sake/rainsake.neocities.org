@@ -1,9 +1,12 @@
 <head>
 <script src="styles/include.js"></script>
-
 </head>
+<body>
+<button id="testButt">click here for free poop</button>
+<div id="omenDisplay" onload="printOmen()"></div>
 
-<script>const omensList = [
+<script>
+const omensList = [
   "What are you doing here?",
   "It was too big to be called a sword",
   "In life, there's roadblocks",
@@ -23,8 +26,5 @@ function printOmen() {
   omenDisplay.innerText = omensList[rand];
 }
 </script>
-
-    <button id="testButt">click here for free poop</button>
-    <div id="omenDisplay" onload="printOmen()"></div>
-
 <script>includeHTML()</script>
+</body>

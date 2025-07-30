@@ -16,7 +16,10 @@ h1 {
 .main {
     display: inline-flex;
     flex-flow: wrap;
-    margin-inline: 20%;
+
+    margin-left: 20%;
+    margin-right: 20%;
+
     align-items:inherit;
     justify-content: space-evenly;
     border: #FF6247 solid;
@@ -34,24 +37,12 @@ h1 {
     display: none;
 }
 
-table {
-    table-layout: auto;
-    display: block;
-}
-
-tbody,
-td {
-    width: max-content;
-    max-width: min-content;
-    padding-inline-start: 2%;
-    max-height: 30vh;
-    display: inline-block;
-    vertical-align: top;
-}
-
-
 .contentbox {
-    padding-inline: 2%;
+    /* x-inline doesn't work on neocities */
+    padding-left: 2%;
+    padding-right: 2%;
+
+    margin-bottom: 0.5%;
     background-color: rgb(24, 24, 24);
     align-content: space-evenly;
     min-width: 100px;
@@ -78,10 +69,17 @@ td {
 }
 
 .artpreview {
-    width: 23.5%;
+    min-width: 23.5%;
+    max-width: min-content;
+    width: auto;
     border: solid #3BE560;
 }
 
 .artpreview img {
+    width: 100%;
+}
+
+.misc {
+    border: solid #A052E5;
     width: 100%;
 }
