@@ -3,19 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff" http-equiv="Content-Type" />
     <title>A Site for a Rainy Day</title>
     <link href="./styles/style.css" rel="stylesheet" type="text/css" media="all">
     <script src="styles/include.js"></script>
-    <script src="omens.js"></script>
+    <script src="styles/omens.js" type="application/javascript"></script>
 </head>
 <body>
-    <div class="title" style="height: 100px;"><br>A SITE FOR A RAINY DAY</div>
-    <div id="omenDisplay"></div>
+    <div class="title"><!-- remove the title class if it ends up unused! --><h1>A SITE FOR A RAINY DAY</h1></div>
+
+
+    <div w3-include-html="omens.html"></div>
+    
     <!--w3 include test-->
     <div w3-include-html="navbar.html"></div>
     <!--BASE PAGE LAYOUT-->
     <div class="main">
+      <!-- links -->  <div class="links contentbox">
+      <p>example link 1</p><br>
+      <p>example link 2</p><br>
+      <p>example link 3</p><br>
+      <p>example link 3</p><br>
+      <p>example link 3</p><br>
+      </div>
 
+      <!-- about -->   <div class="about contentbox">
+      <p>welcome to website?<br>
+        Cat ipsum dolor sit amet, disappear for four days and return home with an expensive injury; bite the vet yet touch my tail, i shred your hand purrrr. Cats go for world domination ignore the squirrels, you'll never catch them anyway poop in a handbag look delicious and drink the soapy mopping up water then puke giant foamy fur-balls annoy kitten brother with poking and wack the mini furry mouse purr like an angel. 
+      </p>
+      </div>
+
+      <!-- news -->    <div class="news contentbox">
+      <p>example news waugh <br>
+        Cat ipsum dolor sit amet, disappear for four days and return home with an expensive injury; bite the vet yet touch my tail, i shred your hand purrrr. Cats go for world domination ignore the squirrels, you'll never catch them anyway poop in a handbag look delicious and drink the soapy mopping up water then puke giant foamy fur-balls annoy kitten brother with poking and wack the mini furry mouse purr like an angel. 
+      </p>
+      </div>
+
+      <!-- art -->     <div class="artpreview contentbox">
+      <p>example art</p>
+      <img src="https://file.garden/ZG7dw2LYvB6VkKec/Art/gold%20week%20bikini.png" alt="gold week bikini art">
+      </div>
+
+      <!-- misc -->   <div class="misc contentbox">
+      <p> misc misc misc </p>
+      </div>
     </div>
 
 <script>
