@@ -6,49 +6,68 @@
     <meta content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff" http-equiv="Content-Type" />
     <title>A Site for a Rainy Day</title>
     <link href="./styles/style.css" rel="stylesheet" type="text/css" media="all">
-    <script src="styles/include.js"></script>
-    <script src="styles/omens.js" type="application/javascript"></script>
+    <script type="text/javascript" src="styles/include.js"></script>
+    <script type="text/javascript" src="omens.js"></script>
 </head>
 <body>
     <div class="title"><!-- remove the title class if it ends up unused! --><h1>A SITE FOR A RAINY DAY</h1></div>
+    <!-- omens display -->
+    <div id="omenDisplay" onload="printOmen()"></div>    
 
-
-    <div w3-include-html="omens.html"></div>
-    
     <!--w3 include test-->
     <div w3-include-html="navbar.html"></div>
     <!--BASE PAGE LAYOUT-->
     <div class="main">
       <!-- links -->  <div class="links contentbox">
-      <p>example link 1</p><br>
-      <p>example link 2</p><br>
-      <p>example link 3</p><br>
-      <p>example link 3</p><br>
-      <p>example link 3</p><br>
+      <a href="https://rainsake.newgrounds.com"><img src="images/Links Logos/newgrounds-logo.gif" alt="Newgrounds" class="logo"></a><br>
+      <a href="https://ko-fi.com/rainsake"><img src="images/Links Logos/kofi-logo.gif" alt="Ko-Fi" class="logo"></a><br>
+      <a href="https://bsky.app/profile/rainsake.bsky.social"><img src="images/Links Logos/bsky-logo.gif" alt="BlueSky" class="logo"></a><br>
+      <a href="https://www.tumblr.com/rainsakeart"><img src="images/Links Logos/tumblr-logo.gif" alt="Tumblr" class="logo"></a><br>
+
       </div>
 
       <!-- about -->   <div class="about contentbox">
-      <p>welcome to website?<br>
-        Cat ipsum dolor sit amet, disappear for four days and return home with an expensive injury; bite the vet yet touch my tail, i shred your hand purrrr. Cats go for world domination ignore the squirrels, you'll never catch them anyway poop in a handbag look delicious and drink the soapy mopping up water then puke giant foamy fur-balls annoy kitten brother with poking and wack the mini furry mouse purr like an angel. 
+      <p>Hey! Welcome to my website!<br>
+        My name is Lena, you found my secret site where I detail my evil plans to take over the world using crossword puzzles and an accurate recreation of the rebel crossbow from half-life 2.
+        <br><br>I do arts and such, you can find them somewhere here! Or in other places that you can find here also!
+        <br><br>There's not much I can think of to put in this box right now, and I want to be able to merge this branch by the end of today so It's staying like this.
       </p>
+      <img src="images/Buttons & Stamps/yeah-im-silly.gif">
       </div>
 
       <!-- news -->    <div class="news contentbox">
-      <p>example news waugh <br>
-        Cat ipsum dolor sit amet, disappear for four days and return home with an expensive injury; bite the vet yet touch my tail, i shred your hand purrrr. Cats go for world domination ignore the squirrels, you'll never catch them anyway poop in a handbag look delicious and drink the soapy mopping up water then puke giant foamy fur-balls annoy kitten brother with poking and wack the mini furry mouse purr like an angel. 
+      <p>
+        <h3>31/07/2025 -- WEBSITE (re)LAUNCH</h3><br>
+        The website is UP and for the FIRST TIME EVER (not really). The main homepage is somewhat done! And nothing else is completed at all! Check back later for more updates I suppose.
+        <br>Next up though is likely stamps and buttons!!!
       </p>
       </div>
 
       <!-- art -->     <div class="artpreview contentbox">
-      <p>example art</p>
+      <p>A random artwork of mine I'm leaving here. Look at it!</p>
       <img src="https://file.garden/ZG7dw2LYvB6VkKec/Art/gold%20week%20bikini.png" alt="gold week bikini art">
       </div>
 
       <!-- misc -->   <div class="misc contentbox">
-      <p> misc misc misc </p>
+      <p> Website created by RainSake&#8482;&#169;&#174;&#9830; </p>
+      <!-- panda rating --> <a href="https://www.mabsland.com/Adoption.html"><img src="http://www.mabsland.com/Pandas/Censor_NYRc.gif" alt="Not-Rated Panda"></a>
+      <!-- neocities link --> <a href="https://neocities.org/"><img src="images/Buttons & Stamps/neocities.gif" alt="Neocities Button"></a>
       </div>
     </div>
 
+
+<script>
+
+
+var omenDisplay = document.getElementById('omenDisplay');
+
+testButt.addEventListener('click', printOmen);
+
+function printOmen() {
+  var rand = Math.floor(Math.random() * omensList.length);
+  omenDisplay.innerText = omensList[rand];
+}
+</script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     includeHTML(() => {

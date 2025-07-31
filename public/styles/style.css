@@ -13,6 +13,13 @@ h1 {
     font-weight: normal;
 }
 
+#omenDisplay {
+    color: #a1a1a1;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
 .main {
     display: inline-flex;
     flex-flow: wrap;
@@ -45,7 +52,7 @@ h1 {
     margin-bottom: 0.5%;
     background-color: rgb(24, 24, 24);
     align-content: space-evenly;
-    min-width: 100px;
+    min-width: 125px;
     max-width: 75%;
     align-items:inherit;
     overflow: scroll;
@@ -55,7 +62,15 @@ h1 {
 .links {
     border: solid;
     border-color: #FFCB54;
+    width: min-content;
+    display: grid;
 }
+
+.logo {
+    width: 100%;
+    background-size: 100%;
+}
+
 
 .about {
     border: solid;
