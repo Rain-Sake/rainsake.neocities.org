@@ -58,5 +58,6 @@ const omensList = [
   "Stopppp you're making me blush....... omg...........",
   "Readying the acid magnet !!!",
   "uuughgh, can yuo shu,r up man.. *shakes but*",
-  "Peep the horror."
+  "Peep the horror.",
+  "The game."
 ];
