@@ -13,11 +13,39 @@ h1 {
     font-weight: normal;
 }
 
+aside {
+    max-width: 50%;
+    justify-self: right;
+    flex-wrap: wrap;
+    float: right;
+}
+
+
 #omenDisplay {
     color: #a1a1a1;
     margin-top: -20px;
     margin-bottom: 10px;
     font-size: 0.8em;
+}
+
+/* BORDER COLOURS */
+.redborder {
+    border: solid #FF6247;
+}
+.orangeborder {
+    border: solid #FF8A47;
+}
+.yellowborder {
+    border: solid #FFCB54;
+}
+.greenborder {
+    border: solid #3BE560;
+}
+.blueborder {
+    border: solid #42A9E5;
+}
+.purpleborder {
+    border: solid #A052E5;
 }
 
 .main {
@@ -29,7 +57,6 @@ h1 {
 
     align-items:inherit;
     justify-content: space-evenly;
-    border: #FF6247 solid;
     max-height: 75vh;
     overflow-y: scroll;
     padding: 0.5%;
@@ -38,6 +65,10 @@ h1 {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
+
+/* #indexmain {
+    border: #FF6247;
+} */
 
 /* more hiding scrollbar */
 .main::-webkit-scrollbar {
@@ -60,8 +91,8 @@ h1 {
 }
 
 .links {
-    border: solid;
-    border-color: #FFCB54;
+    
+    /* border-color: #FFCB54; */
     width: min-content;
     display: grid;
 }
@@ -71,20 +102,39 @@ h1 {
     background-size: 100%;
 }
 
-/* #tumblr-logo {
-    background-color: #FFFFFF;
-    border-color: #000000;
-    border: 1px;
+.about {
+    /* border: solid; */
+    /* border-color: #FF8A47; */
+}
+/* .about a {
+    color: #FF8A47;
 } */
 
-.about {
-    border: solid;
-    border-color: #FF8A47;
+/* About page contentboxes */
+/* .about-me {
+    border: solid #FF6247;
+} */
+/* .about-site {
+    border: solid #ffc852;
+} */
+
+/* Status.cafe widget */
+#statuscafe {
+    padding: .5em;
+    
+    border: 1px solid white;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
 }
 
+
 .news {
-    border: solid;
-    border-color: #42A9E5;
+    /* border: solid;
+    border-color: #42A9E5; */
     max-width: 65%;
 }
 
@@ -92,7 +142,7 @@ h1 {
     min-width: 23.5%;
     max-width: min-content;
     width: auto;
-    border: solid #3BE560;
+    /* border: solid #3BE560; */
 }
 
 .artpreview img {
@@ -100,6 +150,6 @@ h1 {
 }
 
 .misc {
-    border: solid #A052E5;
+    /* border: solid #A052E5; */
     width: 100%;
 }

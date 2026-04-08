@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff" http-equiv="Content-Type" />
+    <title>A Site for a Rainy Day</title>
+    <link href="./styles/style.css" rel="stylesheet" type="text/css" media="all">
+    <script type="text/javascript" src="styles/include.js"></script>
+    <script type="text/javascript" src="omens.js"></script>
+</head>
+<body>
+    <div class="title"><!-- remove the title class if it ends up unused! --><h1>A SITE FOR A RAINY DAY</h1></div>
+    <!-- omens display -->
+    <div id="omenDisplay" onload="printOmen()"></div>    
+
+    <!--w3 include test-->
+    <div w3-include-html="navbar.html"></div>
+    <!--BASE PAGE LAYOUT-->
+    <div class="main about orangeborder">
+    <div class="redborder contentbox">
+    <h1>ABOUT ME</h1>
+    <p> <!--cat ipsum for NEVER!!!!-->
+      
+    </p>
+    </div>
+    <div class="yellowborder contentbox">
+      <h1>ABOUT SITE</h1>
+      <p>wawawawwaw</p>
+    </div>
+    </div>
+
+
+<script>
+var omenDisplay = document.getElementById('omenDisplay');
+
+testButt.addEventListener('click', printOmen);
+
+function printOmen() {
+  var rand = Math.floor(Math.random() * omensList.length);
+  omenDisplay.innerText = omensList[rand];
+}
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    includeHTML(() => {
+      printOmen();
+    });
+  });
+</script>
+</body>
+</html>
