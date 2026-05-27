@@ -55,7 +55,7 @@ h1 {
     min-width: 125px;
     max-width: 75%;
     align-items:inherit;
-    overflow: scroll;
+    overflow: hidden;
     max-height: inherit;
 }
 
