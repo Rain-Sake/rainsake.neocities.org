@@ -55,8 +55,12 @@ h1 {
     min-width: 125px;
     max-width: 75%;
     align-items:inherit;
-    overflow: hidden;
+    overflow: scroll;
     max-height: inherit;
+
+    /* hiding scrollbar */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .links {
