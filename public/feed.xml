@@ -1,0 +1,36 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>RainSake's site</title>
+<link>https://rainsake.neocities.org/</link>
+<description>Updates for my website</description>
+<item>
+<title>Website (re)launch</title>
+<link>https://rainsake.neocities.org/</link>
+<guid>https://rainsake.neocities.org/</guid>
+<pubDate>Thur, 31 Jul 2025 0:00:00 GMT</pubDate>
+<description>Website was relaunched!</description>
+</item>
+<item>
+<title>Article 2</title>
+<link>example.com/2</link>
+<guid>example.com/2</guid>
+<pubDate>Mon, 14 Jun 2026 12:15:12 GMT</pubDate>
+<description>test.</description>
+</item>
+</channel>
+</rss> -->
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>RainSake's site</title>
+  <description>Updates for my website, posts and projects</description>
+  <link>https://rainsake.neocities.org</link>
+  <lastBuildDate>
+    Tue, 10 Jul 2018 09:58 +0100
+  </lastBuildDate>
+  <ttl>20000</ttl>
+  
+</channel>
+</rss>
